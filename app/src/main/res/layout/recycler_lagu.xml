@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardLagu"
+        android:padding="8dp"
+        android:background="@color/black"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ImageLagu"
+            android:src="@drawable/img"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/judulLagu"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:textSize="11sp"
+                android:text="Suburbia Overture / Greetings from Mary Bell Township! / (Vampire) Culture / Love Me, Normally"
+                android:textColor="@color/white"
+                android:fontFamily="monospace"/>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:text="The Normal Album"
+                android:id="@+id/namaAlbum"
+                android:textColor="@color/whitegray"
+                android:textSize="9sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
