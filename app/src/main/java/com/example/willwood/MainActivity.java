@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         Intent intent = new Intent(this, ListLaguActivity.class);
         intent.putExtra("album", album);
         intent.putExtra("nama album", album.getNamaAlbum());
+        intent.putExtra("img_album", album.getImageAlbum());
         startActivity(intent);
     }
 }
